@@ -17,7 +17,7 @@ node {
     stage('Build Kube-pods') {
         /* This builds the actual image; synonymous to
           * docker build on the command line. */
-
+           /*saddam*/      
            /*sh 'docker rmi $(docker images -q -f dangling=true)'*/
            /*sh 'pwd'*/
           /*sh 'kubectl get pods'*/
